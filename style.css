@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red !important; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+main nav{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+}
+
+nav .left img{
+    margin-right: 20px;
+}
+
+main nav .left{
+    display: flex;
+    align-items: center;
+    gap:22px;
+}
+
+nav p{
+    font-size: 14px;
+}
+
+nav .right{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+main nav .right .profile img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+
+/* section  */
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section .slide1_content{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+section .slide1_content h3{
+    width: fit-content;
+    background-color: #FFB900;
+    padding: 5px 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+section .slide1_content h1{
+    font-family: Segoe UI;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+section .slide1_content p{
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+section .slide1_content button{
+    padding: 11px 20px;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    background-color: #0067B8;
+    border: none;
+}
+
+
+/* Section 2  */
+
+.section2{
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(227, 121, 121); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section2 .first_part span i{
+    font-size: 1.2em;
+    padding: 0px 8px;
+}
+
+.section2 .second_part{
+    display: flex;
+    gap: 50px;
+}
+
+.section2 .second_part i{
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+.section2 .second_part a{
+    color: #0067B8;
+}
+
+/* Card Section  */
+
+.card_section{
+    height: 80%;
+    width: 100%;
+    /* background-color: #FFB900; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card_section .box{
+    height: 70%;
+    width: 280px;
+    /* background-color: rgb(159, 93, 93); */
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.card_section .box .image img{
+    width: 100%;
+}
+
+.card_section .box .content{
+    padding: 12px 22px;
+}
+
+.card_section .box .content h2{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.card_section .box .content p{
+    padding-bottom: 15px;
+}
+.card_section .box .content button{
+    padding: 11px 20px;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    background-color: #0067B8;
+    border: none;
+}
+
+/* Game Pass Section  */
+
+.game_pass_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.game_pass_section .content{
+    position: absolute;
+    left: 15%;
+    color: white;
+}
+
+.game_pass_section .content h1{
+    padding-bottom: 5%;
+}
+
+.game_pass_section .content p{
+    padding-bottom: 10%;
+}
+
+.game_pass_section .content button{
+    padding: 11px 20px;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    background-color: #0067B8;
+    border: none;
+}
+
+
+/* For bussiness section */
+.bussiness_card_section{
+    height: 110%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+
+.bussiness_card_section .main_heading{
+    position: absolute;
+    left: 110px;
+    top: 40px;
+}
+
+
+/* Less plastic section  */
+
+.less_plastic_section{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: -190px;
+    text-align: end;
+}
+.less_plastic_section img{
+    width: 88%;
+    height: 80%;
+    object-fit: cover;
+}
+.less_plastic_section .content{
+    position: absolute;
+    color: white;
+    text-align: justify;
+    right: 15%;
+}
+
+.less_plastic_section .content h1{
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.less_plastic_section .content p{
+    margin-bottom: 20px;
+}
+
+.less_plastic_section .content button{
+    padding: 11px 20px;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    background-color: #0067B8;
+    border: none;
+}
+
+/* social buttons  */
+
+.social_butoon{
+    margin-left:6%;
+}
+
+.social_butoon span i{
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.back_btn{
+    display: flex;
+    justify-content: end;
+    margin-right: 12%;
+}
+
+.back_btn button{
+    padding: 11px 25px;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    background-color: #d0cdcd;
+    border: none;
+    margin-bottom: 5%;
+}
+
+.back_btn button a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* footer  */
+
+footer{
+    height: 60%;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: grid;
+    grid-template-columns: repeat(6, 16.6%);
+    grid-template-rows: 80% 20%;
+    justify-content: center;
+    font-size: 13px;
+    padding-left: 20px;
+    color: #746161;
+}
+
+footer .first_col{
+    /* background-color: red; */
+    padding: 20px ;
+    line-height: 2.3;
+}
+footer .first_col ul{
+    list-style: none;
+}
+
+footer .second_col{
+    /* background-color: rgb(167, 255, 45); */
+    padding: 20px ;
+    line-height: 2.3;
+}
+footer .second_col ul{
+    list-style: none;
+}
+
+footer .third_col{
+    /* background-color: rgb(65, 59, 130); */
+    padding: 20px ;
+    line-height: 2.3;
+}
+footer .third_col ul{
+    list-style: none;
+}
+
+footer .fourth_col{
+    /* background-color: rgb(232, 55, 182); */
+    padding: 20px ;
+    line-height: 2.3;
+}
+footer .fourth_col ul{
+    list-style: none;
+}
+
+footer .fifth_col{
+    /* background-color: rgb(219, 109, 54); */
+    padding: 20px ;
+    line-height: 2.3;
+}
+footer .fifth_col ul{
+    list-style: none;
+}
+
+footer .sixth_col{
+    /* background-color: rgb(63, 165, 183); */
+    padding: 20px ;
+    line-height: 2.3;
+}
+footer .sixth_col ul{
+    list-style: none;
+}
+
+footer .bottom_row{
+    /* background-color: yellow; */
+    grid-column: 1/7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .bottom_row span i{
+    font-size: 20px;
+}
+footer .bottom_row ul{
+    list-style: none;
+    display: flex;
+    gap: 22px;
+}
